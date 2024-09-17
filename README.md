@@ -4,30 +4,33 @@ A passionate advocate for `SRE`, `DevOps`, and `Platform Engineering`. As a `Goo
 
 ### 💻 Professional Achievements (Portfolio)
 
-- [AWS Resource(dev) Migration to new account for security](/achievements/01/AWS%20Resource%20Migration.md)
-- [Project Catalog API development (Katalog)]
+#### Site Reliability Engineer at Danggeun Market(Karrot)
 
-### 📝 My blog posts (medium)
+_Danggeun Market is a global local community marketplace with its main presence in South Korea, Canada, US, and Japan. I led DevOps initiatives in the SRE space._
 
-[Coding, Platform Engineering, DevOps, Cloud, K8S, Network, Security]
+1. [AWS Resource(dev) Migration to new account for security](/achievements/karrot/01.AWS%20Resource%20Migration/story.md)
+2. [Project Catalog API development (Katalog)]()
+3. [Cloud Resource Provisioner Development]()
+4. [Machine-learning based cloud cost anomaly detection tool]()
+5. [GCP BigQuery Slot Autoscaler]()
+6. [Build new VPN architecture among AWS, GCP and On-Prem (Fault Demonstration and Testing)]()
+7. [Build cross-cloud interconnect between AWS and GCP]()
+8. [Logical AirGap system & outbound proxy]()
+9. [Design new GCP project architecture aligned with DevOps culture and Develop Autorisation System]()
+10. [Help to migrate ElasticSearch on vm to eck]()
+11. [Operate and Manage OpenSearch]()
+12. [2 tier encryption with KMS key]()
+13. [MongoDB with terraform]()
+14. [Migrating AWS SSO Permission Set Resources to Terraform]()
 
-- [6 Tips to Build a Service Ownership Catalog for Your DevOps Success](https://medium.com/@derek10cloud/b836b56733f5)
-- [Why Service Ownership is the First Step in DevOps](https://medium.com/@derek10cloud/2a2cbb2e166b)
-- [Boost Your Go Development with Air: Efficient Live Reloading](https://medium.com/@derek10cloud/f378b7cd757d)
-- [Choose a right GCP api client for Python Developers](https://python.plainenglish.io/5baac2f63916)
-- [AWS Vault for Beginners: Secure Your AWS User Keys](https://systemweakness.com/4c8e7c992895)
-- [How to access GCP securely from AWS with Workload Identity Federation](https://medium.com/@derek10cloud/cc15fd8d7960)
-- [GCP workload identity federation doesn’t yet support EKS IRSA in AWS](https://medium.com/@derek10cloud/a3c71877671a)
-- [Kubernetes as a Subway: Overprovisioning, Priority, and Preemption](https://medium.com/@derek10cloud/518656730d05)
-- [How to connect to VPNs between AWS and GCP](https://medium.com/@derek10cloud/5f8aa112443d)
-- [How to access GCP Cloud Workstation with private gateway?](https://medium.com/@derek10cloud/5b0f9aee799c)
-- [How to configure GCP Private Service Access for multi-cloud](https://medium.com/@derek10cloud/18f2b4443b26)
-- [How to Implement IP Access Control for GCP Web Console](https://medium.com/@derek10cloud/400500d11ed0)
-- [Build an Integrated Audit Log System for Multiple GCP Projects](https://medium.com/@derek10cloud/54f9b1e433ad)
-- [Understanding AWS KMS: When and How to Use It](https://medium.com/@derek10cloud/efef96bf5227)
-- [Troubleshooting Elasticsearch Disk Space-Watermark Settings Guide](https://medium.com/@derek10cloud/0d9a9f3ea0bf)
-- [GCP Log-based Metrics in Minutes? Yes, with Gemini AI Chat!](https://medium.com/@derek10cloud/2a19e1921d58)
-- and more, see [My Blog Posts](https://medium.com/@derek10cloud)!
+#### Cloud Engineer at LG Uplus
+
+_LG Uplus is a major South Korean telecommunications company. I played a key role in multi-cloud engineering._
+
+1. [Establish and operate enterprise standard GCP console access and account framework (Squid Proxy, GCDS, Google Admin)]()
+2. [Operating AWS/GCP Interconnect (Direct Connect, Dedicated Interconnect)]()
+3. [Establish and operate enterprise standard AWS SSO user management and AWS account structure framework (AWS SSO, AWS Control Tower)]()
+4. [Online subscription support system operation (GKE)]()
 
 ### ⭐ 📝 My skills
 
@@ -55,9 +58,31 @@ A passionate advocate for `SRE`, `DevOps`, and `Platform Engineering`. As a `Goo
 ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Serverless](https://img.shields.io/badge/Serverless-%23DD0031.svg?style=for-the-badge&logo=serverless&logoColor=white)
 
+### 📝 My blog posts (medium)
+
+_Coding, Platform Engineering, DevOps, Cloud, K8S, Network, Security_
+
+- [6 Tips to Build a Service Ownership Catalog for Your DevOps Success](https://medium.com/@derek10cloud/b836b56733f5)
+- [Why Service Ownership is the First Step in DevOps](https://medium.com/@derek10cloud/2a2cbb2e166b)
+- [Boost Your Go Development with Air: Efficient Live Reloading](https://medium.com/@derek10cloud/f378b7cd757d)
+- [Choose a right GCP api client for Python Developers](https://python.plainenglish.io/5baac2f63916)
+- [AWS Vault for Beginners: Secure Your AWS User Keys](https://systemweakness.com/4c8e7c992895)
+- [How to access GCP securely from AWS with Workload Identity Federation](https://medium.com/@derek10cloud/cc15fd8d7960)
+- [GCP workload identity federation doesn’t yet support EKS IRSA in AWS](https://medium.com/@derek10cloud/a3c71877671a)
+- [Kubernetes as a Subway: Overprovisioning, Priority, and Preemption](https://medium.com/@derek10cloud/518656730d05)
+- [How to connect to VPNs between AWS and GCP](https://medium.com/@derek10cloud/5f8aa112443d)
+- [How to access GCP Cloud Workstation with private gateway?](https://medium.com/@derek10cloud/5b0f9aee799c)
+- [How to configure GCP Private Service Access for multi-cloud](https://medium.com/@derek10cloud/18f2b4443b26)
+- [How to Implement IP Access Control for GCP Web Console](https://medium.com/@derek10cloud/400500d11ed0)
+- [Build an Integrated Audit Log System for Multiple GCP Projects](https://medium.com/@derek10cloud/54f9b1e433ad)
+- [Understanding AWS KMS: When and How to Use It](https://medium.com/@derek10cloud/efef96bf5227)
+- [Troubleshooting Elasticsearch Disk Space-Watermark Settings Guide](https://medium.com/@derek10cloud/0d9a9f3ea0bf)
+- [GCP Log-based Metrics in Minutes? Yes, with Gemini AI Chat!](https://medium.com/@derek10cloud/2a19e1921d58)
+- and more, see [My Blog Posts](https://medium.com/@derek10cloud)!
+
 ### 📫 Links
 
-- [Linkedin](https://www.linkedin.com/in/derekkim-cloud/)
+- 📥 [Linkedin](https://www.linkedin.com/in/derekkim-cloud/)
 - 📧 [Email](derek10cloud@gmail.com)
 - 📝 [Blog](https://medium.com/@derek10cloud)
 
