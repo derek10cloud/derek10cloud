@@ -2,7 +2,7 @@
 
 - Language: `Python`, `Terraform`
 - Tag: `AWS`, `Kubernetes`, `Network`, `Security`, `ArgoCD`, `ElastiCache`, `S3`, `DynamoDB`, `SQS`, `Route53`
-- Period: 2023/08/15 - 2023/09/09
+- Period: 2023/08/15 → 2023/09/09
 
 ## Objective
 
