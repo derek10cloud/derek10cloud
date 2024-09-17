@@ -22,8 +22,9 @@
   - Easy to access AWS multi accounts by accessing SSO link if the user have been granted proper permission from SSO permission manager(SSO Admin) for the accounts.
   - Strengthen security governance easily and automatically by applying Control Tower's Guardrail(SCP and Config).
 
-![[AWS SSO] We don't use 2)Business cloud applications and 3)Custom SAML applications yet.
-Sources : [https://aws.amazon.com/ko/blogs/korea/aws-single-sign-on-seoul-region/](https://aws.amazon.com/ko/blogs/korea/aws-single-sign-on-seoul-region/)](Establish%20and%20operate%20enterprise%20standard%20AWS%20SSO%20%2036f7226c2e9e4ca9821ca829bc2ee173/Untitled.png)
+![image](./images/Untitled.png)
+[AWS SSO] We don't use 2)Business cloud applications and 3)Custom SAML applications yet.
+Sources : [https://aws.amazon.com/ko/blogs/korea/aws-single-sign-on-seoul-region/](https://aws.amazon.com/ko/blogs/korea/aws-single-sign-on-seoul-region/)
 
 [AWS SSO] We don't use 2)Business cloud applications and 3)Custom SAML applications yet.
 Sources : [https://aws.amazon.com/ko/blogs/korea/aws-single-sign-on-seoul-region/](https://aws.amazon.com/ko/blogs/korea/aws-single-sign-on-seoul-region/)
