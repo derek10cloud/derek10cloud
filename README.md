@@ -23,7 +23,7 @@ _Danggeun Market is a global local community marketplace with its main presence 
 11. [Operate and Manage OpenSearch](/achievements/karrot/11.Operate%20and%20Manage%20OpenSearch/story.md)
 12. [2 tier encryption with KMS key](/achievements/karrot/12.2%20tier%20encryption%20with%20KMS%20key/story.md)
 13. [MongoDB with terraform](/achievements/karrot/13.MongoDB%20with%20terraform/story.md)
-14. [Migrating AWS SSO Permission Set Resources to Terraform](/achievements/karrot/13.MongoDB%20with%20terraform/story.md)
+14. [Migrating AWS SSO Permission Set Resources to Terraform](/achievements/karrot/14.Migrating%20AWS%20SSO%20Permission%20Set%20Resources%20to%20Terraform/story.md)
 
 #### Cloud Engineer at LG Uplus
 

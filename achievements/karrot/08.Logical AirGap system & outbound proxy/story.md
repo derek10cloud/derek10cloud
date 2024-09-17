@@ -4,7 +4,7 @@
 - Tag: AirGap, Kubernetes, Network, squid proxy
 - Period: 2023/03/24 → 2023/05/09
 
-![Untitled](Logical%20AirGap%20system%20&%20outbound%20proxy%2079a79a2412094751a7117871f9ca4a4c/Untitled.png)
+![Untitled](./images/Untitled.png)
 
 ## Objective
 
