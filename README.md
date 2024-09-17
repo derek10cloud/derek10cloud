@@ -29,9 +29,9 @@ _Danggeun Market is a global local community marketplace with its main presence 
 
 _LG Uplus is a major South Korean telecommunications company. I played a key role in multi-cloud engineering._
 
-1. [Establish and operate enterprise standard GCP console access and account framework (Squid Proxy, GCDS, Google Admin)]()
-2. [Operating AWS/GCP Interconnect (Direct Connect, Dedicated Interconnect)]()
-3. [Establish and operate enterprise standard AWS SSO user management and AWS account structure framework (AWS SSO, AWS Control Tower)]()
+1. [Establish and operate enterprise standard GCP console access and account framework (Squid Proxy, GCDS, Google Admin)](/achievements/lguplus/01.Establish%20and%20operate%20enterprise%20standard%20GCP%20console%20access%20and%20account%20framework/story.md)
+2. [Operating AWS/GCP Interconnect (Direct Connect, Dedicated Interconnect)](/achievements/lguplus/02.Operating%20AWS&GCP%20Interconnect%20/story.md)
+3. [Establish and operate enterprise standard AWS SSO user management and AWS account structure framework (AWS SSO, AWS Control Tower)](/achievements/lguplus/03.Establish%20and%20operate%20enterprise%20standard%20AWS%20SSO%20user%20management%20and%20AWS%20account%20structure%20framework/story.md)
 4. [Online subscription support system operation (GKE)]()
 
 ---
