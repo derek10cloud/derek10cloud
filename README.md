@@ -5,6 +5,7 @@ A passionate advocate for `SRE`, `DevOps`, and `Platform Engineering`. As a `Goo
 ### 💻 Professional Achievements
 
 - [AWS Resource(dev) Migration to new account for security](/achievements/01/AWS%20Resource%20Migration.md)
+- [Project Catalog API development (Katalog)]
 
 ### 📝 My blog posts (medium)
 
@@ -45,8 +46,8 @@ A passionate advocate for `SRE`, `DevOps`, and `Platform Engineering`. As a `Goo
 ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
-![Opensearch](https://img.shields.io/badge/-OpenSearch-005EB8?style=flat&logo=opensearch&logoColor=white)
 ![ElasticSearch](https://img.shields.io/badge/-ElasticSearch-005571?style=for-the-badge&logo=elasticsearch)
+![Opensearch](https://img.shields.io/badge/-OpenSearch-005EB8?style=flat&logo=opensearch&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
