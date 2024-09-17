@@ -2,6 +2,8 @@
 
 A passionate advocate for `SRE`, `DevOps`, and `Platform Engineering`. As a `Google Developer Expert(GDE)` for Cloud and Champion Innovator in Security and Networking, I actively contribute to the tech community through `speaking engagements`, `blog posts`, and `mentorship`, always driven by a love for learning and innovation.
 
+---
+
 ### 💻 Professional Achievements (Portfolio)
 
 #### Site Reliability Engineer at Danggeun Market(Karrot)
@@ -32,6 +34,8 @@ _LG Uplus is a major South Korean telecommunications company. I played a key rol
 3. [Establish and operate enterprise standard AWS SSO user management and AWS account structure framework (AWS SSO, AWS Control Tower)]()
 4. [Online subscription support system operation (GKE)]()
 
+---
+
 ### ⭐ 📝 My skills
 
 #### Laguages
@@ -58,6 +62,8 @@ _LG Uplus is a major South Korean telecommunications company. I played a key rol
 ![Kafka](https://img.shields.io/badge/-Kafka-231F20?style=flat&logo=apachekafka&logoColor=white)
 ![Serverless](https://img.shields.io/badge/Serverless-%23DD0031.svg?style=for-the-badge&logo=serverless&logoColor=white)
 
+---
+
 ### 📝 My blog posts (medium)
 
 _Coding, Platform Engineering, DevOps, Cloud, K8S, Network, Security_
@@ -80,11 +86,15 @@ _Coding, Platform Engineering, DevOps, Cloud, K8S, Network, Security_
 - [GCP Log-based Metrics in Minutes? Yes, with Gemini AI Chat!](https://medium.com/@derek10cloud/2a19e1921d58)
 - and more, see [My Blog Posts](https://medium.com/@derek10cloud)!
 
+---
+
 ### 📫 Links
 
 - 📥 [Linkedin](https://www.linkedin.com/in/derekkim-cloud/)
 - 📧 [Email](derek10cloud@gmail.com)
 - 📝 [Blog](https://medium.com/@derek10cloud)
+
+---
 
 ### 🚧 Opensource projects I contribute to
 
