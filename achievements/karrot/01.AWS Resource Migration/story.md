@@ -1,8 +1,8 @@
 # AWS Resource(dev) Migration to new account for security
 
-Language: Python, Terraform
-Tag: AWS, Kubernetes, Network, Security
-Period: 2023/08/15 → 2023/09/09
+- Language: `Python`, `Terraform`
+- Tag: `AWS`, `Kubernetes`, `Network`, `Security`, `ArgoCD`, `ElastiCache`, `S3`, `DynamoDB`, `SQS`, `Route53`
+- Period: 2023/08/15 - 2023/09/09
 
 ## Objective
 
@@ -15,7 +15,7 @@ Period: 2023/08/15 → 2023/09/09
   - So, we aim to move alpha resources to alpha account, and delete alpha subnets in production account to save ip address ranges.
 - Prevention of cognitive load for all developers
   - When a new developer join our company, they should know weird architecture like below picture.
-    ![이미지](./images/Untitled.png)
+    ![img](./images/Untitled.png)
   - So, we want to get rid of cognitive load for developers.
   - Before this project we have to say like ”korea alpha resources are not in alpha account, but those are with production resources in production account…”
 - Avoid complex resource architecture
@@ -35,7 +35,7 @@ Period: 2023/08/15 → 2023/09/09
 
 ## Before Migration
 
-![IMG_8996.jpg](<AWS%20Resource(dev)%20Migration%20to%20new%20account%20for%20sec%20f7d7e45a84ba4bf28bc99999b629c8ea/IMG_8996.jpg>)
+![img](./images/IMG_8996.jpg)
 
 - we made a plan how to move alpha resources to the alpha account.
 
@@ -51,7 +51,7 @@ Period: 2023/08/15 → 2023/09/09
 
 ### 3. Make scenario how to developers can deploy their services to new k8s cluster
 
-![Untitled](<AWS%20Resource(dev)%20Migration%20to%20new%20account%20for%20sec%20f7d7e45a84ba4bf28bc99999b629c8ea/Untitled%201.png>)
+![img](./images/Untitled%201.png)
 
 - We have two deploy systems, we make each scenario and guide book to migrate services to new EKS cluster for developers.
 
@@ -62,9 +62,9 @@ Period: 2023/08/15 → 2023/09/09
 
 ## Migration Day
 
-![20230823_111605.jpg](<AWS%20Resource(dev)%20Migration%20to%20new%20account%20for%20sec%20f7d7e45a84ba4bf28bc99999b629c8ea/20230823_111605.jpg>)
+![img](./images/20230823_111605.jpg)
 
-![20230823_111631.jpg](<AWS%20Resource(dev)%20Migration%20to%20new%20account%20for%20sec%20f7d7e45a84ba4bf28bc99999b629c8ea/20230823_111631.jpg>)
+![img](./images/20230823_111631.jpg)
 
 - Have developers change to a new resource endpoint in alpha account when they deploy a new service.
 - If there are problems after developers deploy their services with new endpoint, SRE participate in troubleshooting.
@@ -73,7 +73,7 @@ Period: 2023/08/15 → 2023/09/09
 
 - Delete all legacy resources in production account after a week.
 
-## I**mportant things when migrating**
+## Important things when migrating
 
 ### 1. We can’t make same s3 bucket
 

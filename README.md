@@ -11,7 +11,7 @@ A passionate advocate for `SRE`, `DevOps`, and `Platform Engineering`. As a `Goo
 _Danggeun Market is a global local community marketplace with its main presence in South Korea, Canada, US, and Japan. I led DevOps initiatives in the SRE space._
 
 1. [AWS Resource(dev) Migration to new account for security](/achievements/karrot/01.AWS%20Resource%20Migration/story.md)
-2. [Project Catalog API development (Katalog)]()
+2. [Project Catalog API development (Katalog)](</achievements/karrot/02.Project%20Catalog%20API%20development%20(Katalog)/story.md>)
 3. [Cloud Resource Provisioner Development]()
 4. [Machine-learning based cloud cost anomaly detection tool]()
 5. [GCP BigQuery Slot Autoscaler]()
