@@ -4,6 +4,8 @@ A passionate advocate for `SRE`, `DevOps`, and `Platform Engineering`. As a `Goo
 
 ### 💻 Professional Achievements
 
+- [AWS Resource(dev) Migration to new account for security](/achievements/01/AWS%20Resource%20Migration.md)
+
 ### 📝 My blog posts (medium)
 
 [Coding, Platform Engineering, DevOps, Cloud, K8S, Network, Security]
