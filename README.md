@@ -100,6 +100,7 @@ _Coding, Platform Engineering, DevOps, Cloud, K8S, Network, Security_
 
 - [`stackql`](https://github.com/stackql/stackql)
 - [`stackql-deploy`](https://github.com/stackql/stackql-deploy)
+- [`pystackql`](https://github.com/stackql/pystackql)
 
 <!--
 **derek10cloud/derek10cloud** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
