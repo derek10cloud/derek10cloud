@@ -15,7 +15,7 @@
 ## Achievement
 
 - BigQuery Slot we’ve committed automatically scale in/out so fast(better than BigQuery slot autoscaler that we have to use now)
-- I saved over 50% BigQuery Query cost (about over $ 100,000).
+- I saved over 50% BigQuery Query cost (about over $ 100,000 per month).
 - Even when queries are concentrated, performance efficiency has been achieved by lowering the average query execution time.
 
 ## What I did
