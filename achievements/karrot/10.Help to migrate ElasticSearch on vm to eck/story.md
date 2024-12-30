@@ -52,3 +52,22 @@
   - [use case](https://discuss.elastic.co/t/nodes-being-dropped-from-cluster/263161)
   - Delete istio sidecar also lower cpu util
 - Easy rollback with ArgoCD
+
+## Challenges and Solutions:
+
+- Challenge: Persistent TCP Connection Issues in Elasticsearch Cluster
+
+The Elasticsearch cluster was experiencing disruptions due to persistent TCP connection issues. Given Elasticsearch's design, which maintains TCP connections between nodes for clustering purposes even when idle, we suspected the problem was caused by external factors. Upon reviewing the Kubernetes environment for the search cluster, we identified the presence of an Istio sidecar injected into each Pod by default. Istio sidecars act as proxy containers, intercepting all incoming requests to the Pod, and have a default setting that triggers a timeout for idle connections after one hour.
+
+- Solution: Disabling Istio Sidecar Injection
+
+To address this issue, we collaborated with the SRE team to debug the problem. The SRE team's investigation and feedback suggested that the Istio sidecar might be causing the TCP connection issues due to its handling of idle connections. Following their guidance, we modified the YAML manifest for the search cluster to prevent Istio sidecar injection. This was accomplished by adding the following configuration:
+
+```yml
+podTemplate:
+  metadata:
+    annotations:
+      sidecar.istio.io/inject: "false"
+```
+
+By disabling the Istio sidecar injection, we were able to redeploy the search cluster without the interference from Istio, effectively resolving the persistent connectivity problems and ensuring stable operation of the Elasticsearch cluster.
