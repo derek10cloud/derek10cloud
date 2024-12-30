@@ -26,41 +26,41 @@ The project aimed to enhance security by separating development (dev) and produc
 
 ## Achievement
 
-1. Security Enhancement:
+#### 1. Security Enhancement:
 
 - Successfully segregated dev resources into a dedicated account, improving the security posture and aligning with ISMS security requirements.
 
-2. Improved Resource Management:
+#### 2. Improved Resource Management:
 
 - Freed up IP address ranges in the production environment by removing dev subnets and resources.
 
-3. Resource Optimization:
+#### 3. Resource Optimization:
 
 - Cleaned up and deleted unnecessary resources post-migration, such as redundant EC2 instances, S3 buckets, and Lambda functions.
 
-4. Reduced Cognitive Load & Simplified Architecture:
+#### 4. Reduced Cognitive Load & Simplified Architecture:
 
 - Simplified the development environment for new developers by maintaining a clear distinction between dev and production environments.
   Eliminated the need for complex cross-account IAM roles.
 
 ## What I did
 
-1.Project Leadership:
+#### 1. Project Leadership:
 
 - Led the entire project lifecycle, including planning, execution, and stakeholder alignment. Ensured all potential challenges were identified and mitigated to facilitate smooth migration.
 
-2. Pre-Migration Preparation:
+#### 2. Pre-Migration Preparation:
 
 - Developed data migration tools for services like S3 and DynamoDB, handling data transfers seamlessly. Specifically, worked on creating the S3 data migration API.
 - Established dev AWS resources in the new account, including security and network configurations, ensuring readiness for migration.
 - Designed deployment and migration scenarios, preparing comprehensive guides for developers to transition their services to the new Kubernetes cluster.
 
-3. Resource and Access Management:
+#### 3. Resource and Access Management:
 
 - Configured necessary IAM roles for EKS pods and Lambda functions ensuring smooth operation post-migration.
 - Coordinated with developers to alter endpoints to new resources, providing support for any deployment issues.
 
-4. Post-Migration Activities:
+#### 4. Post-Migration Activities:
 
 - Oversaw the decommissioning of legacy dev resources in the production environment within a week post-migration.
 - Worked closely with teams to troubleshoot any service disruptions post-migration.
@@ -71,23 +71,23 @@ The project aimed to enhance security by separating development (dev) and produc
 
 - we made a plan how to move alpha resources to the alpha account.
 
-### 1. Make Data migrations Tools
+#### 1. Make Data migrations Tools
 
 - We decided to support data migration(but not real time, because they are not production resources), so we made data migration api for S3, DynamoDB, and ElastiCache.
 - Among those service, I developed S3 data migration api.
 
-### 2. Make alpha aws resources in alpha account
+#### 2. Make alpha aws resources in alpha account
 
 - We made alpha aws resources including network resources and security resources in alpha account before migration day.
 - We listed endpoints of newly created alpha resources by service in a sheet.
 
-### 3. Make scenario how to developers can deploy their services to new k8s cluster
+#### 3. Make scenario how to developers can deploy their services to new k8s cluster
 
 ![img](./images/Untitled%201.png)
 
 - We have two deploy systems, we make each scenario and guide book to migrate services to new EKS cluster for developers.
 
-### 4. Make IAM Roles which are needed for eks pods or Lambda
+#### 4. Make IAM Roles which are needed for eks pods or Lambda
 
 - We made IAM Roles before migration day.
 - Give same permissions with IAM Role in production account.
@@ -107,22 +107,22 @@ The project aimed to enhance security by separating development (dev) and produc
 
 ## Challenges and Solutions:
 
-1. S3 Bucket Naming Conflicts:
+#### 1. S3 Bucket Naming Conflicts:
 
 - Challenge: Unable to create S3 buckets with the same name due to global naming constraints.
 - Solution: Created S3 buckets with appended identifiers like "new" for clarity and communicated naming conventions clearly to developers.
 
-2. Data Encryption Transitions:
+#### 2. Data Encryption Transitions:
 
 - Challenge: KMS keys cannot be simply migrated by changing endpoints.
 - Solution: Advised developers to decrypt data with existing keys and re-encrypt with new KMS keys in the dev environment to ensure data security.
 
-3.  Maintaining Compatibility Across Components:
+#### 3. Maintaining Compatibility Across Components:
 
 - Challenge: Encountered compatibility issues like differing Redis versions and modes.
 - Solution: Ensured the new resources matched existing configurations as closely as possible to maintain compatibility.
 
-4. Avoiding Critical Resource Deletions:
+#### 4. Avoiding Critical Resource Deletions:
 
 - Challenge: Risk of accidental deletion of production resources during legacy resource cleanup.
 - Solution: Implemented temporary restrictions on permissions to prevent unauthorized deletions, providing a safeguard during the cleanup process.
